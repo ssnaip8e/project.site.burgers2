@@ -1,0 +1,42 @@
+
+.menu__container {
+  max-width: 1426px;
+  width: 100%;
+  margin-inline: auto;
+  margin-bottom: 47px;
+}
+
+.menu__title {
+  margin: 0;
+  margin-bottom: 38px;
+  font-size: 45px;
+  text-align: center;
+}
+
+.menu__products {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 38px;
+}
+
+.product {
+  overflow: hidden;
+  max-width: 450px;
+  min-height: 300px;
+  border-radius: 50px;
+}
+
+.product__description {
+  min-height: 43px;
+  font-size: 35px;
+  font-weight: 500;
+  text-align: center;
+}
+
+.product:hover {
+  box-shadow: 0 4px 12px #aaa;
+}
+
+.product:hover img {
+  transform: scale(1.315);
+}

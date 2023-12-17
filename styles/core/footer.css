@@ -1,0 +1,38 @@
+
+.footer {
+  min-height: 450px;
+  padding: 157px 0 75px;
+  text-align: center;
+  background: linear-gradient(180deg, rgba(217, 217, 217, 0.00) 0%, #EDA61D 100%);
+}
+
+.footer__supports {
+  display: flex;
+  justify-content: center;
+  gap: 101px;
+  margin-bottom: 45px;
+}
+
+.support__link {
+  font-size: 20px;
+}
+
+.support__link:hover {
+  text-decoration: underline;
+}
+
+.footer__organisation,
+.footer__copyright {
+  margin-bottom: 24px;
+  font-weight: 500;
+}
+
+.social {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.social__link:hover {
+  transform: scale(1.1);
+}

@@ -1,0 +1,102 @@
+
+.header {
+  min-height: 900px;
+  background: linear-gradient(180deg, #EDA418 47.4%, rgba(237, 164, 24, 0.00) 100%);
+}
+
+.header__container {
+  max-width: 1340px;
+  margin-inline: auto;
+  padding: 101px 0 106px;
+}
+
+
+.nav {
+  display: flex;
+  align-items: center;
+  margin-bottom: 16px;
+}
+
+.nav__logo {
+  margin-right: 240px;
+  min-height: 72px;
+}
+
+.nav__link {
+  min-height: 37px;
+  font-size: 25px;
+  font-weight: 500;
+}
+
+.nav__link:hover {
+  text-decoration: underline;
+}
+
+.nav__link:nth-child(2) {
+  font-weight: 700;
+}
+
+.nav__link + .nav__link {
+  margin-left: 100px;
+}
+
+.nav__basket {
+  padding: 0;
+  margin: 0;
+  margin-left: 150px;
+  border: 0;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.nav__basket:hover > img {
+  transform: scale(1.1);
+}
+
+
+.banner {
+  display: flex;
+  align-items: center;
+}
+
+.banner__intro {
+  margin-right: 38px;
+  max-width: 572px;
+  width: 100%;
+}
+
+.banner__title {
+  margin: 0;
+  min-height: 63px;
+  font-size: 32px;
+  font-weight: 800;
+}
+
+.banner__title,
+.banner__description {
+  margin-bottom: 29px;
+}
+
+.banner__description {
+  min-height: 35px;
+}
+
+.button {
+  min-height: 60px;
+  max-width: 142px;
+  width: 100%;
+  font-size: 24px;
+  color: #FFFFFF;
+  border: 0;
+  border-radius: 50px;
+  background-color: #E52626;
+  cursor: pointer ;
+}
+
+.button:focus {
+  outline: 4px solid #000;
+}
+
+.button:hover {
+  transform: scale(1.1);
+}
